@@ -26,10 +26,12 @@ fun flagg(bg_color, outer_color, inner_color, dim_x, dim_y, thickness, distance_
   
 end
 
-#brukseksempel
-flagg("red", "white", "blue", 22, 16, 4, 6)
-flagg("white", "blue", "red", 22, 16, 4, 6)
-flagg("red", "white", "white", 37, 28, 4, 12)
-flagg("blue", "yellow", "yellow", 16, 10, 2, 5)
-flagg("white", "blue", "blue", 18, 11, 3, 5)
-flagg("blue", "white", "red", 25, 18, 4, 7)
+#|
+   sample bruk:
+   flagg("red", "white", "blue", 22, 16, 4, 6)
+   flagg("white", "blue", "red", 22, 16, 4, 6)
+   flagg("red", "white", "white", 37, 28, 4, 12)
+   flagg("blue", "yellow", "yellow", 16, 10, 2, 5)
+   flagg("white", "blue", "blue", 18, 11, 3, 5)
+   flagg("blue", "white", "red", 25, 18, 4, 7) 
+|#

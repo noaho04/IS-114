@@ -6,5 +6,5 @@ outer_circ = circle(60, "outline", "yellow")
 inner_circ = circle(59, "solid", "black")
 
 #konstruksjon
-put-image(outer_circ, 70, 90, 
-  put-image(inner_circ, 70, 90,bg))
+put-image(outer_circ, 60, 100, 
+  put-image(inner_circ, 60, 100,bg))
